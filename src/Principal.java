@@ -4,9 +4,9 @@ public class Principal {
     public static void main(String[] args) {
 
 
-        Pessoa renan = new Pessoa();
-        renan.setNome("Renanzin");
-        renan.setIdade(33);
+        Pessoa renan = new Pessoa("Renanzin", 33);
+      //  renan.setNome("Renanzin");
+      // renan.setIdade(33);
 
         Pessoa juliane = new Pessoa();
         juliane.setNome("Juliane");
